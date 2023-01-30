@@ -1,0 +1,16 @@
+{
+  "method": "qd",
+  "config": "chunk2",
+  "q": "chunk",
+  "k": 15,
+  "alpha": 80,
+  "eps": 0.08,
+  "gamma": 1,
+  "policy": "res",
+  "interval": 200,
+  "res": 1000,
+  "lag": 0,
+  "seed": 42,
+  "equal": 1,
+  "load": 1
+}

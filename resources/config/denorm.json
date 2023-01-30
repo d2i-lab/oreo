@@ -1,0 +1,19 @@
+{
+  "cat_cols": [ "L_RETURNFLAG", "L_LINESTATUS", "L_SHIPINSTRUCT", "L_SHIPMODE",
+    "C_MKTSEGMENT",  "O_ORDERSTATUS",
+    "O_ORDERPRIORITY",  "O_SHIPPRIORITY", "S_NAME",
+    "P_MFGR", "P_BRAND", "P_TYPE", "P_CONTAINER",
+    "N1_NAME",   "N2_NAME", "R1_NAME",  "R2_NAME", "P_NAME"
+  ],
+  "date_cols": ["L_SHIPDATE", "L_COMMITDATE", "L_RECEIPTDATE", "O_ORDERDATE"],
+  "num_cols": ["L_QUANTITY", "L_EXTENDEDPRICE", "L_TAX",  "L_DISCOUNT",
+    "C_ACCTBAL", "PS_SUPPLYCOST", "PS_AVAILQTY", "P_SIZE", "PS_SUPPKEY",
+    "L_ORDERKEY", "L_SUPPKEY","C_CUSTKEY"],
+  "int_cols": ["PS_AVAILQTY", "P_SIZE", "PS_SUPPKEY",
+    "L_ORDERKEY", "L_SUPPKEY","C_CUSTKEY"],
+  "sort_cols": ["L_SHIPDATE"],
+  "date_format": "%Y-%m-%d",
+  "ds": "tpch",
+  "delimiter": ",",
+  "path": "/mnt/1/datasets/denorm/"
+}

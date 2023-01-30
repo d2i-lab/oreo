@@ -1,0 +1,12 @@
+{
+  "cat_cols": ["id","pa__collector_id","pa__arrival_period_type"],
+  "bool_cols": [],
+  "int_cols": [],
+  "num_cols": ["pa__arrival_period", "pa__arrival_day"],
+  "date_cols": ["pa__arrival_ts"],
+  "sort_cols": ["pa__arrival_ts"],
+  "date_format": "%Y-%m-%d %H:%M:%S",
+  "delimiter": ",",
+  "ds": "chunk2",
+  "path": "/lfs/1/krong/datasets/chunk2/"
+}

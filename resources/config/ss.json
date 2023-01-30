@@ -1,0 +1,18 @@
+{
+  "cat_cols": ["cd_education_status", "cd_marital_status", "ca_state", "ca_country", "i_manager_id",
+     "i_class", "i_brand", "d_year", "d_dow", "d_month_seq", "d_dom", "d_moy",
+    "cd_gender", "i_manufact_id", "i_category", "s_city", "s_county", "s_state",
+    "p_channel_email", "p_channel_event", "s_store_name", "hd_buy_potential"
+  ],
+  "date_cols": ["d_date"],
+  "num_cols": ["ss_sales_price", "ss_net_profit", "hd_dep_count", "ss_quantity", "ss_list_price", "ss_coupon_amt",
+  "ss_wholesale_cost", "s_number_employees","hd_vehicle_count", "t_hour", "t_minute"],
+  "int_cols": ["d_moy", "d_year", "d_dow", "d_month_seq", "d_dom", "i_manager_id", "i_manufact_id", "t_hour",
+    "hd_dep_count", "hd_vehicle_count", "s_number_employees", "hd_vehicle_count"
+  ],
+  "sort_cols": ["d_date"],
+  "date_format": "%Y-%m-%d",
+  "ds": "ss",
+  "delimiter": ",",
+  "path": "/lfs/1/krong/datasets/ss/"
+}
